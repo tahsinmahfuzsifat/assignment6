@@ -1,0 +1,210 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.main-wrapper{
+
+overflow: hidden;
+
+background-image: url(../images/background.jpg);
+
+background-size: cover;
+
+background-repeat: no-repeat;
+}
+.header{
+
+height: 118px;
+}
+.logo{background:  -webkit-linear-gradient(top, rgba(169,3,41,1) 0%,rgba(143,2,34,1) 23%,rgba(109,0,25,1) 100%);near-gradient(top, rgba(169,3,41,1) 0%,rgba(143,2,34,1) 23%,rgba(109,0,25,1) 100%);:background: #029493height:height:;}
+.logo img{
+
+width: 466px;
+
+height: 96px;
+
+padding: 0;
+
+margin: 0 auto;
+}
+.nav{
+    background: -webkit-linear-gradient(top, rgba(169,3,41,1) 0%,rgba(143,2,34,1) 23%,rgba(0,0,25,2) 80%);
+    overflow: hidden;
+}
+.nav ul{
+
+list-style: none;
+
+margin: 0;
+
+transition: .5s all;
+
+color: #3F51B5;
+}
+.nav ul li{
+    float: left;
+    padding-right: 50px;
+    font-size: 20px;
+}
+.nav ul li a{text-decoration: none;color: #b1811b;}
+.nav ul li a:hover{
+	color: #500000;
+	zoom:110%;
+	transition:.5s;
+}
+.main-body{
+	width: 100%;
+}
+.left{
+
+margin-top: 14px;
+
+width: 58%;
+
+margin-left: 13px;
+
+padding-left: 8px;
+
+float: left;
+
+margin-bottom: 14px;
+
+height: 131vh;
+
+background: rgba(0, 0, 0, 0.33);
+}
+.left h1{
+
+font-family: 'Playball', cursive;
+}
+.left h1 span{
+
+}
+.left p{
+
+margin: 2px;
+
+margin-bottom: -12px;
+}
+.boxes{
+}
+
+.box1{
+
+display: inline;
+
+float: left;
+
+width: 45%;
+
+border: 1px solid;
+
+border-color: #a09692;
+
+
+height: 331px;
+}
+.box1 h3{
+
+margin: 0;
+}
+
+.box1 h3 p img{
+
+}
+.right{width: 39%;float: right;background: rgba(236, 76, 12, 0.39);margin-right: 5px;margin-top: 14px;border: 1px;color: #fff;height: 131vh;margin-right: 13px;}
+.right h2{
+
+font-family: aria;
+
+font-size: 35px;
+
+color: #770220;
+
+margin: 12px;
+
+text-align: center;
+}
+
+.right ul{margin-top: 68px;list-style: none;}
+.right ul li{
+	
+text-align: center;
+	
+padding: 3px;
+}
+.right  ul li a{
+	
+text-decoration: none;
+	
+color: black;
+	
+font-size: 18px;
+}
+.right ul li a:hover{
+	border:5px,;
+	color:#9c811b;
+	background:	black;
+	border-radius:10px;
+	padding:2px;
+	transition:.3s;
+}
+.footer{
+
+width: 100%;
+
+float: left;
+
+background:  -webkit-linear-gradient(top, rgba(169,3,41,1) 0%,rgba(143,2,34,1) 23%,rgba(109,0,25,1) 100%);
+}
+.footer-left{
+
+width: 50%;
+
+padding-top: 20px;
+
+padding-left: 8px;
+
+font-size: 15px;
+
+font-family: 'Playball',bold, cursive;
+
+font-weight: 600;
+
+float: left;
+}
+.footer-left p{
+
+display: inline;
+
+font-size: 22px;
+}
+.footer-right{
+	width: 50%;
+	float: right;}
+.footer-right ul{
+
+list-style: none;
+
+margin: 0;
+
+padding: 0;
+}
+.footer-right ul li{
+}
+.footer-right ul >li>a{
+
+color: beige;
+
+padding: 10px;
+
+float: right;
+
+margin-top: -26px;
+}
+.footer-right ul >li> a:hover{
+
+}
+.footer-right >ul <li> a> i{
+
+}
